@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t hrektts/mdbook .
+
+script:
+  - docker run --rm -it hrektts/mdbook mdbook --version
