@@ -17,6 +17,10 @@ RUN apt-get update \
  && cargo build --release \
  && cargo install \
  && cargo clean \
+ && cd .. \
+ && rm -rf mdBook \
+ && DEBIAN_FRONTEND=noninteractive apt-get --purge remove -y \
+    build-essential \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
