@@ -1,9 +1,8 @@
 # docker-mdbook
 
-[![Travis Build Status](https://travis-ci.org/hrektts/docker-mdbook.svg?branch=master)](https://travis-ci.org/hrektts/docker-mdbook)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-
 Dockerfile to build a container image enclosing [mdBook](https://github.com/azerupi/mdBook).
+
+[![Travis Build Status](https://travis-ci.org/hrektts/docker-mdbook.svg?branch=master)](https://travis-ci.org/hrektts/docker-mdbook)
 
 ## Usage
 
