@@ -1,5 +1,6 @@
 FROM hrektts/ubuntu:16.04.20170214
-LABEL maintainer="mps299792458@gmail.com"
+LABEL maintainer "mps299792458@gmail.com" \
+      com.katsutoshihorie.version="0.0.18-40f275b"
 
 ENV PATH=/root/.cargo/bin:${PATH}
 
