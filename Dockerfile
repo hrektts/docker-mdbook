@@ -1,4 +1,4 @@
-FROM hrektts/ubuntu:16.04.20161213
+FROM hrektts/ubuntu:16.04.20170214
 LABEL maintainer="mps299792458@gmail.com"
 
 ENV PATH=/root/.cargo/bin:${PATH}
