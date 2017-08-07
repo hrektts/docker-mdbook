@@ -1,6 +1,6 @@
-FROM hrektts/ubuntu:16.04.20170619
-LABEL maintainer "mps299792458@gmail.com" \
-      com.katsutoshihorie.version="0.0.22"
+FROM hrektts/ubuntu:16.04.20170710
+LABEL maintainer="mps299792458@gmail.com" \
+      version="0.0.22"
 
 ENV PATH=/root/.cargo/bin:${PATH}
 ENV MDBOOK_VERSION="0.0.22"
