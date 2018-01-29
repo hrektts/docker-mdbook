@@ -1,4 +1,4 @@
-FROM rust:1.22
+FROM rust:1.23
 LABEL maintainer="mps299792458@gmail.com" \
       version="0.0.28"
 
