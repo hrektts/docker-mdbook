@@ -5,5 +5,5 @@ build:
 
 release: build
 	@docker build -t hrektts/mdbook:$(shell cat Dockerfile | \
-		grep version | \
+		grep "ARG MDBOOK_VERSION" | \
 		sed -e 's/[^"]*"\([^"]*\)".*/\1/') .
