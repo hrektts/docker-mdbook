@@ -1,5 +1,5 @@
 FROM rust:1.27-slim
-ARG MDBOOK_VERSION="0.1.10"
+ARG MDBOOK_VERSION="0.1.8"
 LABEL maintainer="mps299792458@gmail.com" \
       version=$MDBOOK_VERSION
 
